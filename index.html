@@ -5,35 +5,56 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>My Multimedia Blog</title>
   <link rel="stylesheet" href="style.css" />
+  <style>
+    html {
+      scroll-behavior: smooth;
+    }
+  </style>
 </head>
 <body>
   <header>
     <h1>🎨 Welcome to My Blog</h1>
     <p>I’m a Multimedia Student showcasing my work</p>
     <nav>
-      <a href="#">Home</a>
-      <a href="#">About Me</a>
-      <a href="#">Projects</a>
-      <a href="#">Contact</a>
+      <a href="#individual">Individual Project</a>
+      <a href="#group">Group Project</a>
     </nav>
   </header>
 
   <main>
-    <section class="blog-post">
-      <h2>Individual Project</h2>
-      <p>Software: 3D Maya, Canva, Adobe Creative Suite, 
-        Jupiter Notebook, Apache Netbins, Figma</p>
+    <section id="individual" class="blog-post">
+      <h2>📌 Individual Project</h2>
+      <p><strong>Software Used:</strong> 3D Maya, Canva, Adobe Creative Suite, Jupyter Notebook, Apache NetBeans, Figma</p>
+      <div class="gallery">
+        <div class="item">
+          <img src="https://via.placeholder.com/250" alt="Project 1">
+          <p>My animation using Maya</p>
+        </div>
+        <div class="item">
+          <img src="https://via.placeholder.com/250" alt="Project 2">
+          <p>UI design prototype in Figma</p>
+        </div>
+      </div>
     </section>
 
-    <section class="blog-post">
-      <h2>Group Project</h2>
-      <p>Software: 3D Maya, Canva, Adobe Creative Suite, 
-        Jupiter Notebook, Apache Netbins, Figma</p>
+    <section id="group" class="blog-post">
+      <h2>🤝 Group Project</h2>
+      <p><strong>Software Used:</strong> 3D Maya, Canva, Adobe Creative Suite, Jupyter Notebook, Apache NetBeans, Figma</p>
+      <div class="gallery">
+        <div class="item">
+          <img src="https://via.placeholder.com/250" alt="Group Project 1">
+          <p>Poster for awareness campaign</p>
+        </div>
+        <div class="item">
+          <img src="https://via.placeholder.com/250" alt="Group Project 2">
+          <p>3D model collaboration in Maya</p>
+        </div>
+      </div>
     </section>
   </main>
 
   <footer>
-    <p>&copy; 2025  Multimedia Blog</p>
+    <p>&copy; 2025 Multimedia Blog</p>
   </footer>
 
   <script src="script.js"></script>
