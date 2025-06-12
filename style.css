@@ -1,22 +1,22 @@
-﻿:root {
-  --primary-color: #4b0082;      /* Ungu gelap (profesional) */
-  --accent-color: #ffd700;       /* Emas (kreatif, ceria) */
-  --bg-color: #f9f9f9;
+:root {
+  --primary-color: #6a0dad;
+  --accent-color: #ffcc00;
+  --background-color: #f3f1ff;
   --text-color: #333;
-  --card-bg: #ffffff;
-  --shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  --card-bg: #fff;
+  --shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
   --radius: 12px;
 }
 
 * {
+  box-sizing: border-box;
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
 }
 
 body {
   font-family: 'Segoe UI', sans-serif;
-  background-color: var(--bg-color);
+  background: linear-gradient(to right, #f3f1ff, #e6e6ff);
   color: var(--text-color);
   line-height: 1.6;
 }
@@ -24,22 +24,18 @@ body {
 header {
   background-color: var(--primary-color);
   color: white;
-  padding: 40px 20px;
   text-align: center;
+  padding: 50px 20px;
   box-shadow: var(--shadow);
 }
 
 header h1 {
-  font-size: 2.5em;
-}
-
-header p {
-  font-size: 1.2em;
-  margin-top: 10px;
+  font-size: 2.8em;
+  margin-bottom: 10px;
 }
 
 nav {
-  margin-top: 20px;
+  margin-top: 15px;
 }
 
 nav a {
@@ -54,22 +50,22 @@ nav a:hover {
 }
 
 main {
-  padding: 30px 20px;
   max-width: 900px;
-  margin: auto;
+  margin: 40px auto;
+  padding: 0 20px;
 }
 
 .blog-post {
   background: var(--card-bg);
-  padding: 20px;
+  padding: 25px;
   border-radius: var(--radius);
   margin-bottom: 30px;
   box-shadow: var(--shadow);
-  transition: transform 0.2s;
+  transition: transform 0.2s ease;
 }
 
 .blog-post:hover {
-  transform: scale(1.02);
+  transform: translateY(-5px);
 }
 
 .blog-post h2 {
