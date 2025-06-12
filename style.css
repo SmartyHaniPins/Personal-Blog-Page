@@ -1,0 +1,87 @@
+﻿:root {
+  --primary-color: #4b0082;      /* Ungu gelap (profesional) */
+  --accent-color: #ffd700;       /* Emas (kreatif, ceria) */
+  --bg-color: #f9f9f9;
+  --text-color: #333;
+  --card-bg: #ffffff;
+  --shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  --radius: 12px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  line-height: 1.6;
+}
+
+header {
+  background-color: var(--primary-color);
+  color: white;
+  padding: 40px 20px;
+  text-align: center;
+  box-shadow: var(--shadow);
+}
+
+header h1 {
+  font-size: 2.5em;
+}
+
+header p {
+  font-size: 1.2em;
+  margin-top: 10px;
+}
+
+nav {
+  margin-top: 20px;
+}
+
+nav a {
+  color: var(--accent-color);
+  margin: 0 15px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+main {
+  padding: 30px 20px;
+  max-width: 900px;
+  margin: auto;
+}
+
+.blog-post {
+  background: var(--card-bg);
+  padding: 20px;
+  border-radius: var(--radius);
+  margin-bottom: 30px;
+  box-shadow: var(--shadow);
+  transition: transform 0.2s;
+}
+
+.blog-post:hover {
+  transform: scale(1.02);
+}
+
+.blog-post h2 {
+  color: var(--primary-color);
+  margin-bottom: 10px;
+}
+
+footer {
+  background-color: var(--primary-color);
+  color: white;
+  text-align: center;
+  padding: 20px;
+  margin-top: 50px;
+  font-size: 0.9em;
+}
