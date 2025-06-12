@@ -82,6 +82,7 @@ footer {
   font-size: 0.9em;
 }
 
+/* Gallery Section */
 .gallery {
   display: flex;
   flex-wrap: wrap;
