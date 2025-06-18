@@ -5,7 +5,154 @@
   --card-bg: #111111;
   --radius: 10px;
   --shadow: 0 4px 20px rgba(0, 0, 0, 0.6);
+}:root {
+  --lavender: #dba8f5;
+  --dark: #1e1e1e;
+  --white: #ffffff;
+  --radius: 10px;
 }
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: var(--dark);
+  color: var(--white);
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+}
+
+.main-nav {
+  background: var(--dark);
+  padding: 15px 0;
+  text-align: center;
+  position: sticky;
+  top: 0;
+  z-index: 999;
+}
+
+.main-nav ul {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.main-nav a {
+  color: var(--lavender);
+  text-decoration: none;
+  padding: 10px 15px;
+  font-weight: bold;
+  border-radius: var(--radius);
+}
+
+.main-nav a:hover {
+  background: var(--lavender);
+  color: var(--dark);
+}
+
+.hero {
+  background: var(--lavender);
+  color: var(--dark);
+  text-align: center;
+  padding: 100px 20px;
+}
+
+.btn {
+  background: var(--dark);
+  color: var(--lavender);
+  padding: 10px 20px;
+  border-radius: var(--radius);
+  font-weight: bold;
+  text-decoration: none;
+  cursor: pointer;
+  display: inline-block;
+  margin-top: 15px;
+}
+
+.section {
+  padding: 60px 20px;
+}
+
+.section-lavender {
+  background: var(--lavender);
+  color: var(--dark);
+}
+
+.section-dark {
+  background: #2a2a2a;
+  color: var(--white);
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+/* About */
+.about-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+  max-width: 900px;
+  margin: auto;
+}
+
+.about-image {
+  max-width: 200px;
+  border-radius: var(--radius);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+}
+
+.skills-list ul {
+  list-style: none;
+  padding-left: 0;
+}
+.skills-list li::before {
+  content: '✔ ';
+  color: lightgreen;
+  margin-right: 5px;
+}
+
+/* Gallery */
+.project-gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 20px;
+  max-width: 1000px;
+  margin: auto;
+  text-align: center;
+}
+
+.project-item img {
+  width: 100%;
+  border-radius: var(--radius);
+  box-shadow: 0 4px 10px rgba(0,0,0,0.5);
+}
+
+.project-item p {
+  margin-top: 10px;
+  font-weight: 500;
+}
+
+.social a {
+  margin-right: 10px;
+  color: var(--lavender);
+  text-decoration: none;
+  font-weight: bold;
+}
+
+footer {
+  background: var(--dark);
+  color: var(--lavender);
+  text-align: center;
+  padding: 20px;
+  font-size: 0.9em;
+}
+
 
 * {
   margin: 0;
