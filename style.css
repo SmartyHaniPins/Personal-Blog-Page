@@ -60,7 +60,7 @@ body {
 .hero-subtitle {
   font-family: 'Grape Nuts', cursive;
   font-size: 1.8em;
-  font-weight: semibold;
+  font-weight: 600;
   margin-top: 14px;
 }
 /* Button */
@@ -96,22 +96,34 @@ h2 {
   margin-bottom: 13px;
   margin-top: 10px;
 }
-
-/* About */
+/*About me*/
 .about-wrapper {
   display: flex;
   flex-wrap: wrap;
-  gap: 20px;
+  gap: 30px;
   justify-content: center;
-  align-items: center;
-  max-width: 900px;
+  align-items: flex-start;
+  max-width: 1000px;
   margin: auto;
+  padding-top: 20px;
 }
 
 .about-image {
-  max-width: 200px;
+  width: 220px;
   border-radius: var(--radius);
   box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+}
+
+.about-text {
+  flex: 1;
+  min-width: 250px;
+  max-width: 600px;
+  text-align: left;
+}
+
+.about-text p {
+  margin-bottom: 15px;
+  line-height: 1.7;
 }
 
 .skills-list ul {
