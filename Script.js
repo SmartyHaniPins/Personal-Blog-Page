@@ -15,7 +15,7 @@ document.querySelectorAll('.project-section').forEach(section => {
 
 // Scroll to top button
 const scrollBtn = document.createElement('button');
-scrollBtn.innerText = "⬆️ Top";
+scrollBtn.innerText = "Top";
 scrollBtn.style.position = "fixed";
 scrollBtn.style.bottom = "20px";
 scrollBtn.style.right = "20px";
