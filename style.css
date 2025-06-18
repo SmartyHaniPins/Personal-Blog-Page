@@ -143,6 +143,23 @@ h2 {
   font-weight: bold;
 }
 
+#Contact {
+  text-align: center;
+}
+
+#Contact .social {
+  margin-top: 15px;
+}
+
+#Contact .social a {
+  display: inline-block;
+  margin: 0 10px;
+  color: var(--lavender);
+  text-decoration: none;
+  font-weight: bold;
+}
+
+
 .blog-welcome {
   background-color: var(--dark-lavender);
   color: white;
