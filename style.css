@@ -56,7 +56,11 @@ body {
   text-align: center;
   padding: 100px 20px;
 }
-
+.hero-subtitle {
+  font-family: 'Sacramento', cursive;
+  font-size: 1.8em;
+  margin-top: 10px;
+}
 /* Button */
 .btn {
   background: var(--dark);
