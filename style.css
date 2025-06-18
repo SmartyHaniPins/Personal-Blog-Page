@@ -100,12 +100,12 @@ h2 {
 .about-wrapper {
   display: flex;
   flex-wrap: wrap;
-  gap: 30px;
+  gap: 20px;
   justify-content: center;
   align-items: flex-start;
   max-width: 1000px;
   margin: auto;
-  padding-top: 20px;
+  padding-top: 10px;
 }
 
 .about-image {
