@@ -158,6 +158,45 @@ h2 {
   font-weight: 500;
 }
 
+.project-img-wrapper {
+  position: relative;
+  overflow: hidden;
+  border-radius: var(--radius);
+}
+
+.project-img-wrapper img {
+  width: 100%;
+  display: block;
+  border-radius: var(--radius);
+  transition: transform 0.3s ease, filter 0.3s ease;
+}
+
+.project-img-wrapper:hover img {
+  transform: scale(1.05);
+  filter: brightness(50%);
+}
+
+.project-caption {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.6);
+  color: var(--white);
+  font-weight: bold;
+  text-align: center;
+  padding: 10px;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  border-bottom-left-radius: var(--radius);
+  border-bottom-right-radius: var(--radius);
+}
+
+.project-img-wrapper:hover .project-caption {
+  opacity: 1;
+}
+
+
 /* Contact Section */
 #Contact {
   text-align: center;
