@@ -1,6 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Sacramento&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Bungee+Shade&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Sacramento&family=Bungee+Shade&display=swap');
 
 :root {
   --lavender: #dba8f5;
@@ -19,6 +17,7 @@ body {
   scroll-behavior: smooth;
 }
 
+/* Navigation */
 .main-nav {
   background: var(--dark);
   padding: 15px 0;
@@ -46,10 +45,11 @@ body {
 }
 
 .main-nav a:hover {
-  background: var(--dark lavender);
+  background: var(--dark-lavender);
   color: var(--dark);
 }
 
+/* Hero */
 .hero {
   background: var(--lavender);
   color: var(--dark);
@@ -57,6 +57,7 @@ body {
   padding: 100px 20px;
 }
 
+/* Button */
 .btn {
   background: var(--dark);
   color: var(--lavender);
@@ -69,6 +70,7 @@ body {
   margin-top: 15px;
 }
 
+/* Sections */
 .section {
   padding: 60px 20px;
 }
@@ -109,6 +111,7 @@ h2 {
   list-style: none;
   padding-left: 0;
 }
+
 .skills-list li::before {
   content: '✔ ';
   color: lightgreen;
@@ -136,13 +139,7 @@ h2 {
   font-weight: 500;
 }
 
-.social a {
-  margin-right: 10px;
-  color: var(--lavender);
-  text-decoration: none;
-  font-weight: bold;
-}
-
+/* Contact Section */
 #Contact {
   text-align: center;
 }
@@ -159,13 +156,13 @@ h2 {
   font-weight: bold;
 }
 
-
+/* Welcome Banner */
 .blog-welcome {
   background-color: var(--dark-lavender);
   color: white;
   text-align: center;
   padding: 40px 20px;
-  box-shadow: var(--shadow);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
 }
 
 .blog-welcome .blog-title {
@@ -177,9 +174,10 @@ h2 {
 }
 
 .blog-welcome h2 {
-  font-family: 'Sacramento' , serif;
+  font-family: 'Sacramento', cursive;
   font-size: 3em;
   font-weight: normal;
+  margin-top: 10px;
 }
 
 .my-name {
@@ -187,6 +185,7 @@ h2 {
   letter-spacing: 1.5px;
 }
 
+/* Footer */
 footer {
   background: var(--dark);
   color: var(--lavender);
