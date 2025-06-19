@@ -6,10 +6,14 @@ window.addEventListener('load', () => {
 // Toggle skills section
 function toggleSkills() {
   const skills = document.querySelector('.skills-list');
+  const button = document.querySelector('.toggle-skills');
+
   if (skills.style.display === 'none' || skills.style.display === '') {
     skills.style.display = 'block';
+    button.innerText = "Hide My Skills";
   } else {
     skills.style.display = 'none';
+    button.innerText = "Show My Skills";
   }
 }
 
