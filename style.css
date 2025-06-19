@@ -166,8 +166,10 @@ h2 {
 
 .project-img-wrapper img {
   width: 100%;
-  display: block;
+  height: 220px; /* or any height you want */
+  object-fit: cover;
   border-radius: var(--radius);
+  display: block;
   transition: transform 0.3s ease, filter 0.3s ease;
 }
 
