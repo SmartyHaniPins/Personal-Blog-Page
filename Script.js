@@ -3,18 +3,16 @@ window.addEventListener('load', () => {
   alert("👋 Welcome to my Lavender & Dark Multimedia Portfolio!");
 });
 
-// Toggle skills section
-function toggleSkills() {
-  const skills = document.querySelector('.skills-list');
-  const button = document.querySelector('.toggle-skills');
+// Tab-style Skills toggle
+const skillTab = document.getElementById('skill-tab');
+const skillContent = document.getElementById('skills-content');
 
-  if (skills.style.display === 'none' || skills.style.display === '') {
-    skills.style.display = 'block';
-    button.innerText = "Hide My Skills";
-  } else {
-    skills.style.display = 'none';
-    button.innerText = "Show My Skills";
-  }
+if (skillTab && skillContent) {
+  skillTab.addEventListener('click', () => {
+    const isHidden = skillContent.style.display === 'none' || skillContent.style.display === '';
+    skillContent.style.display = isHidden ? 'block' : 'none';
+    skillTab.innerText = isHidden ? '❌ Hide My Skills' : '🛠 Show My Skills';
+  });
 }
 
 // Scroll to top button
