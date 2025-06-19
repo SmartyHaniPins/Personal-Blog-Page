@@ -14,6 +14,24 @@ This is my personal blog-style portfolio, created to showcase my work as a Multi
 - ☝️ Scroll to top button
 - 📱 Responsive layout
 
+## 📁 Project Structures
+
+```
+📁 Personal-Blog-Page/
+├── 📁 images/
+│   ├── diploma1.jpg
+│   ├── diploma2.jpg
+│   ├── degree1.jpg
+│   └── ... (other images)
+├── style.css
+├── script.js
+├── aboutme.jpeg
+├── index.html
+├── README.md
+
+```
+
+
 
 ## 🛠️ Tools & Tech Used
 
