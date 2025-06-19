@@ -31,6 +31,11 @@ This is my personal blog-style portfolio, created to showcase my work as a Multi
 
 ```
 
+## SKills
+- Adobe Photoshop & Illustrator
+- UI/UX with Figma & Canva
+- 3D Modeling 
+- Photo Editing with Ps
 
 
 ## 🛠️ Tools & Tech Used
@@ -40,6 +45,9 @@ This is my personal blog-style portfolio, created to showcase my work as a Multi
 - Google Fonts (e.g. Bungee Shade, Sacramento, Grape Nuts)
 - Visual Studio Code
 - Git & GitHub Pages for deployment
+
+## Preview
+
 
 
 ## 📃 License
