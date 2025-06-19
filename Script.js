@@ -4,14 +4,14 @@ window.addEventListener('load', () => {
 });
 
 // Toggle skills section
-document.querySelector('.toggle-skills')?.addEventListener('click', () => {
-  const skillsBox = document.querySelector('.skills-list');
-  if (skillsBox.style.display === 'none' || skillsBox.style.display === '') {
-    skillsBox.style.display = 'block';
+function toggleSkills() {
+  const skills = document.querySelector('.skills-list');
+  if (skills.style.display === 'none' || skills.style.display === '') {
+    skills.style.display = 'block';
   } else {
-    skillsBox.style.display = 'none';
+    skills.style.display = 'none';
   }
-});
+}
 
 // Scroll to top button
 const scrollBtn = document.createElement('button');
