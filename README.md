@@ -47,7 +47,7 @@ This is my personal blog-style portfolio, created to showcase my work as a Multi
 - Git & GitHub Pages for deployment
 
 ## Preview
-
+![Preview](images/DesignWebsite.png)
 
 
 ## 📃 License
