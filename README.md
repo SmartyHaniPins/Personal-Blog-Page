@@ -1,9 +1,6 @@
 # ✨ Personal Blog Portfolio — by Nur Iffahani
 
 This is my personal blog-style portfolio, created to showcase my work as a Multimedia student. Built with HTML, CSS, and JavaScript.
-🌐 **Live Site**:  
-👉 [View on GitHub Pages](https://smartyhanipins.github.io/Personal-Blog-Page/)
-
 
 ## 🎨 Features
 
@@ -45,6 +42,20 @@ This is my personal blog-style portfolio, created to showcase my work as a Multi
 - Google Fonts (e.g. Bungee Shade, Sacramento, Grape Nuts)
 - Visual Studio Code
 - Git & GitHub Pages for deployment
+
+## 🚀 How to Run This Project
+
+### 🔗 View Live (Recommended)
+You can view the website instantly here:  
+👉 [https://smartyhanipins.github.io/Personal-Blog-Page/](https://smartyhanipins.github.io/Personal-Blog-Page/)
+
+### 💻 Run Locally (Optional)
+To view the project on your computer:
+
+1. Download or clone the repository:
+   ```bash
+   git clone https://github.com/SmartyHaniPins/Personal-Blog-Page.git
+   
 
 ## Preview
 ![Preview](images/DesignWebsite.png)
